@@ -51,3 +51,49 @@ export interface LimsKpi {
   qcPurityPassRatePct: number;
   glpAuditCompliancePct: number;
 }
+
+export interface ReagentItem {
+  id: string;
+  name: string;
+  lotNumber: string;
+  catalogNumber: string;
+  expirationDate: string;
+  remainingQuantity: number;
+  unit: string;
+  storageCondition: "-80°C Cryo" | "-20°C Freezer" | "+4°C Refrigerator" | "Ambient (+20°C)";
+  qcPassed: boolean;
+  minimumThreshold: number;
+}
+
+export interface CryoFreezerUnit {
+  id: string;
+  name: string;
+  currentTempC: number;
+  targetTempC: number;
+  ln2BackupStatus: "ARMED_READY" | "DISCHARGED" | "STANDBY";
+  totalRacks: number;
+  occupiedSlots: number;
+  lastDefrostDate: string;
+}
+
+export interface ClinicalCoaReport {
+  reportId: string;
+  sampleBarcode: string;
+  patientAnonId: string;
+  testPanelName: string;
+  methodology: string;
+  specimenSource: string;
+  collectionDate: string;
+  reportingDate: string;
+  overallInterpretation: "POSITIVE_DETECTED" | "NEGATIVE_NOT_DETECTED" | "INCONCLUSIVE_RETEST";
+  resultsTable: {
+    targetMarker: string;
+    measuredValue: string;
+    referenceInterval: string;
+    clinicalSignificance: string;
+    flag: "NORMAL" | "HIGH" | "CRITICAL_POSITIVE";
+  }[];
+  pathologistName: string;
+  qualityManagerName: string;
+  isoAccreditation: string;
+}

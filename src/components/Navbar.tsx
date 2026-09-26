@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Dna, Activity, RotateCcw, AlertTriangle, ShieldCheck, Microscope } from "lucide-react";
+import { Dna, Activity, RotateCcw, AlertTriangle, ShieldCheck, Microscope, Package, FileText } from "lucide-react";
 import { useLims } from "@/context/LimsContext";
 
 export default function Navbar() {
@@ -13,6 +13,8 @@ export default function Navbar() {
   const navLinks = [
     { href: "/", label: "SPECIMEN ACCESSION", icon: Dna },
     { href: "/instruments/", label: "PCR & ANALYZER RUNS", icon: Microscope },
+    { href: "/reagents/", label: "REAGENTS & -80°C CRYO", icon: Package },
+    { href: "/coa/", label: "ISO 15189 PATHOLOGY COA", icon: FileText },
   ];
 
   return (
