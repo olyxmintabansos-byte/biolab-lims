@@ -1,2 +1,2 @@
-:HL["/biolab-lims/_next/static/chunks/1manbry1x8et9.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"40qkmjIMPWa3FK8s-0UYf"}
+:HL["/biolab-lims/_next/static/chunks/2gbqpch5731vh.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"UuYzdx3b4-Bu0mTRv-8F3"}

@@ -1,0 +1,2 @@
+:HL["/biolab-lims/_next/static/chunks/2gbqpch5731vh.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"reagents","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"UuYzdx3b4-Bu0mTRv-8F3"}
